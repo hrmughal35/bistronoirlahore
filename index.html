@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bistro Noir Lahore | Premium Fine Dining</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div id="custom-cursor"></div>
+    
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Sticky Header -->
+    <header id="header">
+        <div class="logo">Bistro <span class="gold-text">Noir</span></div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button id="audio-toggle" class="btn-small">Ambient: Off</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content reveal">
+            <h1>A Symphony of <br><span class="gold-text">Taste & Elegance</span></h1>
+            <p>Experience Lahore's premier dark-themed fine dining destination, where culinary artistry meets luxurious ambiance.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Reserve a Table</a>
+                <a href="#menu" class="btn">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="split-grid">
+            <div class="about-text reveal">
+                <h2>The <span class="gold-text">Noir</span> Experience</h2>
+                <p>Nestled in the heart of Lahore, Bistro Noir is a sanctuary for those who appreciate the finer things in life. Our philosophy is simple: exceptional ingredients, masterful techniques, and an atmosphere that captivates the senses.</p>
+                <p>Every dish is a carefully crafted masterpiece, designed to take you on a gastronomic journey through contemporary flavors with a nod to classic traditions.</p>
+            </div>
+            <div class="about-image reveal">
+                <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80" alt="Restaurant Interior">
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Dishes (Menu Preview) -->
+    <section id="menu" class="container">
+        <div class="section-header reveal">
+            <h2>Signature <span class="gold-text">Creations</span></h2>
+            <p>A glimpse into our meticulously curated menu.</p>
+        </div>
+        <div class="cards-grid">
+            <div class="card reveal">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Wagyu Steak">
+                <div class="card-content">
+                    <h3>Noir Wagyu Reserve</h3>
+                    <p>A5 grade Wagyu beef, truffle pomme purée, charred asparagus, and a rich bone marrow demi-glace.</p>
+                    <span class="price">Rs 12,500</span>
+                </div>
+            </div>
+            <div class="card reveal">
+                <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80" alt="Seafood Platter">
+                <div class="card-content">
+                    <h3>Ocean's Whisper</h3>
+                    <p>Pan-seared scallops, lobster tail, saffron risotto, and a delicate citrus beurre blanc.</p>
+                    <span class="price">Rs 9,800</span>
+                </div>
+            </div>
+            <div class="card reveal">
+                <img src="https://images.unsplash.com/photo-1563805042-7684c8e9e533?auto=format&fit=crop&w=600&q=80" alt="Truffle Pasta">
+                <div class="card-content">
+                    <h3>Truffle Noir Tagliatelle</h3>
+                    <p>Handmade pasta, wild mushrooms, aged parmesan, and generous shavings of fresh black truffle.</p>
+                    <span class="price">Rs 6,500</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="container">
+        <div class="section-header reveal">
+            <h2>Visual <span class="gold-text">Journey</span></h2>
+        </div>
+        <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=600&q=80" alt="Drinks" class="reveal">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=80" alt="Dining" class="reveal">
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80" alt="Dessert" class="reveal">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Ambiance" class="reveal">
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="container reveal">
+        <div class="section-header">
+            <h2>Guest <span class="gold-text">Whispers</span></h2>
+        </div>
+        <div class="reviews-slider-container">
+            <div class="reviews-track" id="reviews-track">
+                <div class="review-slide">
+                    <p class="review-text">"An absolute masterpiece of culinary art. The ambiance is unmatched in Lahore, and the Wagyu was cooked to absolute perfection."</p>
+                    <h4 class="review-author">- Sarah Ahmed</h4>
+                </div>
+                <div class="review-slide">
+                    <p class="review-text">"Bistro Noir redefines fine dining. The dark, luxurious aesthetic combined with impeccable service makes it a night to remember."</p>
+                    <h4 class="review-author">- Omar Tariq</h4>
+                </div>
+                <div class="review-slide">
+                    <p class="review-text">"From the custom ambient music to the exquisite truffle pasta, every detail is meticulously planned. A true 5-star experience."</p>
+                    <h4 class="review-author">- Fatima Khan</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <div class="split-grid">
+            <div class="contact-info reveal">
+                <h2>Visit <span class="gold-text">Us</span></h2>
+                <p>Immerse yourself in the Noir experience. Reservations are highly recommended.</p>
+                
+                <div class="info-block">
+                    <h3>Location</h3>
+                    <p>MM Alam Rd, Block B1 Block B 1 Gulberg III,<br>Lahore, Pakistan</p>
+                </div>
+                
+                <div class="info-block">
+                    <h3>Hours</h3>
+                    <p>Monday - Sunday<br>6:00 PM - 10:00 PM</p>
+                </div>
+                
+                <div class="info-block">
+                    <h3>Reservations</h3>
+                    <p>+92 300 1888718<br>reservations@bistronoir.pk</p>
+                </div>
+            </div>
+            <div class="map-container reveal">
+                <iframe 
+                    src="https://maps.google.com/maps?q=Bistro%20Noir%20Lahore&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-branding">
+                <div class="logo">Bistro <span class="gold-text">Noir</span></div>
+                <p class="footer-tagline">Refined evenings, unforgettable flavors, timeless atmosphere.</p>
+            </div>
+            <div class="footer-meta">
+                <p>&copy; 2026 Bistro Noir Lahore. All Rights Reserved.</p>
+                <p class="footer-credit">
+                    Crafted by
+                    <a href="https://www.linkedin.com/in/welcometohassanraza/" target="_blank" rel="noopener noreferrer">
+                        Hassan Raza
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
